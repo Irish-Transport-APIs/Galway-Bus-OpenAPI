@@ -1,4 +1,4 @@
-import * as Schedules from '../services/schedulesService';
+import * as Schedules from '../services/SchedulesService';
 
 /**
  * getSchedules
