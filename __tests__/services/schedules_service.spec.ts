@@ -1,6 +1,5 @@
 
-import * as Schedules from '../../services/schedulesService';
-import { type } from 'os';
+import * as Schedules from '../../services/SchedulesService';
 
 describe('Test', () => {
   test('gets schedules to contain the salthill route ', () => {

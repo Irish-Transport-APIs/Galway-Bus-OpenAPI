@@ -1083,8 +1083,8 @@
   resolved "https://registry.yarnpkg.com/@types/caseless/-/caseless-0.12.1.tgz#9794c69c8385d0192acc471a540d1f8e0d16218a"
 
 "@types/chai@^4.1.3":
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.1.3.tgz#b8a74352977a23b604c01aa784f5b793443fb7dc"
+  version "4.1.7"
+  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.1.7.tgz#1b8e33b61a8c09cbe1f85133071baa0dbf9fa71a"
 
 "@types/connect@*":
   version "3.4.32"
@@ -1203,14 +1203,14 @@ ajv@^5.1.0:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.3.0"
 
-ajv@^6.5.0:
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.5.0.tgz#4c8affdf80887d8f132c9c52ab8a2dc4d0b7b24c"
+ajv@^6.6.1:
+  version "6.6.2"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.6.2.tgz#caceccf474bf3fc3ce3b147443711a24063cc30d"
   dependencies:
     fast-deep-equal "^2.0.1"
     fast-json-stable-stringify "^2.0.0"
-    json-schema-traverse "^0.3.0"
-    uri-js "^4.2.1"
+    json-schema-traverse "^0.4.1"
+    uri-js "^4.2.2"
 
 all-contributors-cli@^4.10.1:
   version "4.11.2"
@@ -2215,20 +2215,20 @@ exegesis-express@^1.0.0:
     exegesis "^1.0.0"
 
 exegesis@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/exegesis/-/exegesis-1.0.1.tgz#19eba857f790f58acc330cc63ff4dabf8965671c"
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/exegesis/-/exegesis-1.3.0.tgz#61e243e9e6189eaee3369ad7fd7dfe01b3e4f6ee"
   dependencies:
-    ajv "^6.5.0"
+    ajv "^6.6.1"
     body-parser "^1.18.2"
     content-type "^1.0.4"
     deep-freeze "0.0.1"
     events-listener "^1.1.0"
     glob "^7.1.2"
     json-ptr "^1.1.0"
-    json-schema-ref-parser "^5.0.3"
+    json-schema-ref-parser "^6.0.0"
     json-schema-traverse "^0.4.0"
     lodash "^4.17.5"
-    openapi3-ts "^0.11.0"
+    openapi3-ts "^1.1.0"
     promise-breaker "^4.1.11"
     pump "^3.0.0"
     qs "^6.5.2"
@@ -3472,14 +3472,14 @@ js-tokens@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
 
-js-yaml@^3.10.0, js-yaml@^3.11.0, js-yaml@^3.3.1:
+js-yaml@^3.10.0, js-yaml@^3.3.1:
   version "3.12.0"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.0.tgz#eaed656ec8344f10f527c6bfa1b6e2244de167d1"
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-js-yaml@^3.7.0:
+js-yaml@^3.12.1, js-yaml@^3.7.0:
   version "3.12.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.1.tgz#295c8632a18a23e054cf5c9d3cecafe678167600"
   dependencies:
@@ -3526,8 +3526,8 @@ jsesc@^1.3.0:
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-1.3.0.tgz#46c3fec8c1892b12b0833db9bc7622176dbab34b"
 
 json-ptr@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/json-ptr/-/json-ptr-1.1.0.tgz#44e7ddf2f99eee6b3f312580614d383bdf46c1be"
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/json-ptr/-/json-ptr-1.1.1.tgz#fa7e92824c34d27c25656e04a8bc69befcf4c2ed"
 
 json-refs@^3.0.1:
   version "3.0.4"
@@ -3542,22 +3542,21 @@ json-refs@^3.0.1:
     slash "^1.0.0"
     uri-js "^3.0.2"
 
-json-schema-ref-parser@^5.0.3:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/json-schema-ref-parser/-/json-schema-ref-parser-5.0.3.tgz#5a8a7b4c865f840ee637c7a5f076421988eb8292"
+json-schema-ref-parser@^6.0.0:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/json-schema-ref-parser/-/json-schema-ref-parser-6.0.3.tgz#0c2e4bc6e89bef59293e354f71afff63d6a4d845"
   dependencies:
     call-me-maybe "^1.0.1"
-    debug "^3.1.0"
-    js-yaml "^3.11.0"
-    ono "^4.0.3"
+    js-yaml "^3.12.1"
+    ono "^4.0.11"
 
 json-schema-traverse@^0.3.0:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-0.3.1.tgz#349a6d44c53a51de89b40805c5d5e59b417d3340"
 
-json-schema-traverse@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-0.4.0.tgz#e8467bf83020ba9d2a47b2e6b82e1ac056b0ad86"
+json-schema-traverse@^0.4.0, json-schema-traverse@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz#69f6a87d9513ab8bb8fe63bdb0979c448e684660"
 
 json-schema@0.2.3:
   version "0.2.3"
@@ -3852,9 +3851,13 @@ lodash.support@~2.4.1:
   dependencies:
     lodash._isnative "~2.4.1"
 
-lodash@^4.11.1, lodash@^4.11.2, lodash@^4.13.1, lodash@^4.17.10, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
+lodash@^4.11.1, lodash@^4.11.2, lodash@^4.13.1, lodash@^4.17.10, lodash@^4.17.4, lodash@^4.3.0:
   version "4.17.10"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
+
+lodash@^4.17.5:
+  version "4.17.11"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
 loose-envify@^1.0.0:
   version "1.4.0"
@@ -4283,15 +4286,15 @@ onetime@^2.0.0:
   dependencies:
     mimic-fn "^1.0.0"
 
-ono@^4.0.3:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/ono/-/ono-4.0.5.tgz#bc62740493a5c1c08b2c21e60cbb0e5c56ab7de2"
+ono@^4.0.11:
+  version "4.0.11"
+  resolved "https://registry.yarnpkg.com/ono/-/ono-4.0.11.tgz#c7f4209b3e396e8a44ef43b9cedc7f5d791d221d"
   dependencies:
     format-util "^1.0.3"
 
-openapi3-ts@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/openapi3-ts/-/openapi3-ts-0.11.0.tgz#8e4c51ad8d54f8f2516b895e4ce8c01550cd4854"
+openapi3-ts@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/openapi3-ts/-/openapi3-ts-1.1.0.tgz#6dc2c5e057dda74a9b299eeb61bf1f7305a1f0d3"
 
 optimist@^0.6.1:
   version "0.6.1"
@@ -4519,8 +4522,8 @@ process-nextick-args@~2.0.0:
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.0.tgz#a37d732f4271b4ab1ad070d35508e8290788ffaa"
 
 promise-breaker@^4.1.11:
-  version "4.1.11"
-  resolved "https://registry.yarnpkg.com/promise-breaker/-/promise-breaker-4.1.11.tgz#c9cbd28a3c5627451ad2e3eabcc3e4617bf97491"
+  version "4.1.13"
+  resolved "https://registry.yarnpkg.com/promise-breaker/-/promise-breaker-4.1.13.tgz#fe57ad0a1f14912682942391de1e6a2b4e2e447b"
 
 prompts@^0.1.9:
   version "0.1.14"
@@ -4571,9 +4574,13 @@ qs@6.5.1:
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.1.tgz#349cdf6eef89ec45c12d7d5eb3fc0c870343a6d8"
 
-qs@6.5.2, qs@^6.0.3, qs@^6.5.1, qs@^6.5.2, qs@~6.5.1:
+qs@6.5.2, qs@^6.0.3, qs@^6.5.1, qs@~6.5.1:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
+
+qs@^6.5.2:
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.6.0.tgz#a99c0f69a8d26bf7ef012f871cdabb0aee4424c2"
 
 quickselect@^1.0.1:
   version "1.1.1"
@@ -5547,7 +5554,7 @@ uri-js@^3.0.2:
   dependencies:
     punycode "^2.1.0"
 
-uri-js@^4.2.1:
+uri-js@^4.2.2:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/uri-js/-/uri-js-4.2.2.tgz#94c540e1ff772956e2299507c010aea6c8838eb0"
   dependencies:
