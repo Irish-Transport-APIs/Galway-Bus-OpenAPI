@@ -15,7 +15,7 @@ module.exports.getAllStops = async (context) => {
         .catch((result)=>{
             //Set status code and a rejection message
             context.res.setStatus(400);
-
+            
             //context.res.status(400).end(); is chainable 
             return result
         })
