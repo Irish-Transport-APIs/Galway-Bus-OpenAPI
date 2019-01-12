@@ -6,7 +6,6 @@
  **/
 export function getSchedules( ){
   return new Promise((resolve, reject) =>{
-    try{
       let schedules = new Array();
 
       //Manually pushing each routes details in the Array. 
@@ -20,10 +19,6 @@ export function getSchedules( ){
       
       resolve({schedules: JSON.stringify(schedules)});
       
-    }
-    catch{
-      reject('Got an error')
-    }
-  });
+    });
 }
 
