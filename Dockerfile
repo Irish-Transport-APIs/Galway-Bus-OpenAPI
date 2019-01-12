@@ -1,4 +1,4 @@
-FROM node:8.x
+FROM node:latest
 
 # app directory
 WORKDIR /home/node/app
@@ -11,8 +11,8 @@ RUN yarn
 # bundle app source
 COPY . .
 
-# Can probably change this
-EXPOSE 9999 
+# expose on 3000 default port
+EXPOSE 3000 
 
-CMD ["yarn", "run dev"]
+CMD ["yarn", "prod"]
 
