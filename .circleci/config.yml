@@ -5,6 +5,7 @@ jobs:
       - image: circleci/node:latest
     steps:
       - checkout
+      - run: yarn
       - run: yarn build
 
   test-latest:
@@ -12,12 +13,14 @@ jobs:
       - image: circleci/node:latest
     steps:
       - checkout
+      - run: yarn
       - run: yarn test
   test-legacy:
     docker:
       - image: circleci/node:chakracore-8-browsers-legacy
     steps:
       - checkout
+      - run: yarn
       - run: yarn test
 workflows:
   version: 2
